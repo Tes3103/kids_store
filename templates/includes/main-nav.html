@@ -16,38 +16,39 @@
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Winter
+                For Winter
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
                 <a href="{% url 'products' %}?category=winter_collections" class="dropdown-item">Winter &amp; Collections</a>
-                <a href="{% url 'products' %}?category=sweater" class="dropdown-item">Jacket</a>
-                <a href="{% url 'products' %}?category=scarf set" class="dropdown-item">Scarf</a>
-                <a href="{% url 'products' %}?category=winter_collections,sunner_collections,birthday_collections,shooes_collections" class="dropdown-item">For All Season</a>
+                <a href="{% url 'products' %}?category=jacket" class="dropdown-item">Jacket</a>
+                <a href="{% url 'products' %}?category=scarf" class="dropdown-item">Scarf</a>
+                <a href="{% url 'products' %}?category=winter_collections,summer_collections,birthday_collections,shooes_collections" class="dropdown-item">For All Season</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Summer
+                For Summer
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Short &amp; Dress</a>
-                <a href="" class="dropdown-item">Tshirt &amp; Skirt</a>
-                <a href="" class="dropdown-item">For All Season</a>
+                <a href="{% url 'products' %}?category=summer_collections" class="dropdown-item">Summer &amp; Collections</a>
+                <a href="{% url 'products' %}?category=short" class="dropdown-item">Short</a>
+                <a href="{% url 'products' %}?category=dress" class="dropdown-item">Dress</a>
+                <a href="{% url 'products' %}?category=winter_collections,summer_collections,birthday_collections,shooes_collections"  class="dropdown-item">For All Season</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
-                Special Offers
+                For Birthday
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=birthday_collections" class="dropdown-item">Birthday Colection</a>
+                <a href="{% url 'products' %}?category=boys" class="dropdown-item">Boys</a>
+                <a href="{% url 'products' %}?category=girls" class="dropdown-item">Girls</a>
+                <a href="{% url 'products' %}?category=winter_collections,summer_collections,birthday_collections,shooes_collections" class="dropdown-item">For All Clothing</a>
             </div>
         </li>
     </ul>
