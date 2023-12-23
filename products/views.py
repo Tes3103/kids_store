@@ -3,7 +3,7 @@ from django.contrib import messages
 from django.db.models import Q
 from django.db.models.functions import Lower
 
-from .models import product, Category
+from .models import Product, Category
  
 
 # Create your views here.
@@ -12,7 +12,7 @@ from .models import product, Category
 def all_products(request):
     """ A view to show all products, inclusing sorting and search quieres """
 
-    products = product.objects.all()
+    products = Product.objects.all()
     query = None
     categories = None
     sort = None
@@ -63,7 +63,7 @@ def all_products(request):
 def product_detail(request, product_id):
     """ A view to show individual product details """
 
-    product = get_object_or_404(product, pk=product_id)
+    product = get_object_or_404(Product, pk=product_id)
 
     context = {
         'product': product,
