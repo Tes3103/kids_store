@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-3x%-jsd$ak@h=4z1v6+#hk5z!let+y4f!p1wr-zcbv$gmz=qa=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-tes3103-kids-store-g7non8txkv.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['8000-tes3103-kids-store-g7non8txkv.us2.codeanyapp.com', '8000-tes3103-kidsstore-tnwn3zz5pwe.ws-eu107.gitpod.io']
 
 
 # Application definition
