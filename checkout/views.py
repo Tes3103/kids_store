@@ -182,6 +182,10 @@ def checkout_success(request, order_number):
     return render(request, template, context)
 
 
-class WishListview(generic.view):
-    def get(self, *args, **kwargs)
-    
+class WishListview(generic.View):
+    def get(self, *args, **kwargs):
+
+        context = {
+
+        }
+
