@@ -6,7 +6,7 @@ from django.conf import settings
 
 from django_countries.fields import CountryField
 
-from products.models import Product
+from products.models import Product, Category
 from profiles.models import UserProfile
 
 
@@ -80,3 +80,12 @@ class OrderLineItem(models.Model):
 
     def __str__(self):
         return f'SKU {self.product.sku} on order {self.order.order_number}'
+
+class WishList(models.Model):
+    product = models.ForeignKey(Category,on_delete=models.CASCADE)
+    quantity = models.SmallIntegerField(default=1)
+     
+     
+    def __str__(self):
+        return f'{self.quantity} of {self.product}' 
+            
