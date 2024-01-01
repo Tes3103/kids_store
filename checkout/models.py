@@ -91,3 +91,5 @@ class WishItem(models.Model):
     def __str__(self):
         return f'{self.quantity} of {self.product}' 
             
+    def __str__(self):
+        return self.quantity * self.product.price

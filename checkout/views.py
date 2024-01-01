@@ -182,10 +182,13 @@ def checkout_success(request, order_number):
     return render(request, template, context)
 
 
-class WishListview(generic.View):
+class wishlistview(generic.View):
     def get(self, *args, **kwargs):
-
+        wish_items = WishItem.objects.filter(user=self.request.user)
         context = {
-
+            'wish_items':wish_items
         }
+        return render(self.request, 'checkout/wishlist.html')
+
+
 
