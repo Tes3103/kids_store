@@ -1,12 +1,16 @@
 {% load static %}
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
   <head>
     {% block meta %}
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Kids Store is a clothing website where parents and families can easily get kids clothing with a wide variety of choices">
+        <meta name="keywords" content="shop, winter kids clothing, kids summer collection, birthday collection, boys t-shirt, girls dress, girls occation clothing,  
+        kids clothing, kids full-set clothing, login, secure payments, email confirmation">
     {% endblock %} 
     
     {% block extra_meta %} 
@@ -59,30 +63,43 @@
           </form>
         </div>
         <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
-          <ul class="list-inline list-unstyled text-center text-lg-right my-0"> 
-            <li class="list-inline-item">
-              <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_wishitem' %}">
-                <div class="text-center">
-                  <div><i class="fa-solid fa-heart"></i></div>
-                  <p class="my-0">My Wishlist</p>
-                </div>
-              </a>
-            </li>      
-            <li class="list-inline-item">
-              <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
-                <div class="text-center">
-                  <div><i class="fas fa-shopping-bag fa-lg"></i></div>
-                  <p class="my-0">
-                    {% if grand_total %}
-                         ${{ grand_total|floatformat:2 }} 
-                    {%else %} 
-                        $0.00 
-                    {% endif %}
-                  </p>
-                </div>
-              </a>
-            </li>
-          </ul>
+            <ul class="list-inline list-unstyled text-center text-lg-right my-0"> 
+                <li class="list-inline-item dropdown">
+                    <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="text-center">
+                            <div><i class="fas fa-user fa-lg"></i></div>
+                            <p class="my-0">My Account</p>
+                        </div>
+                    </a>
+                    <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                        {% if request.user.is_authenticated %}
+                            {% if request.user.is_superuser %}
+                            <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+                            {% endif %}
+                            <a href="" class="dropdown-item">My Profile</a>
+                            <a href="{% url 'wishitem' %}" class="dropdown-item">My Wishlist</a>
+                            <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                        {% else %}
+                            <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+                            <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                        {% endif %}
+                    </div>
+                </li>
+                <li class="list-inline-item">
+                    <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
+                        <div class="text-center">
+                            <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+                            <p class="my-0">
+                                {% if grand_total %}
+                                    ${{ grand_total|floatformat:2 }} 
+                                {%else %} 
+                                    $0.00 
+                                {% endif %}
+                            </p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
         </div>
       </div>
       <div class="row bg-white">
@@ -131,5 +148,48 @@
     </script> 
     {% endblock %}
 
+    <footer>
+        <div class="text-center mt-5">
+            <div class="footer">
+                <ul class="social-networks">
+                    <li class="text-dark">Follow us on social media for our latest product updates!</li>
+                </ul>
+                <li class="socials">
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page">
+                        <i class="fab fa-facebook p-2"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page">
+                      <i class="fab fa-twitter-square p-2"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page">
+                      <i class="fab fa-instagram p-2  mb-4"></i>
+                    </a>
+                </li>
+                <ul>
+                    <li class="text-center">
+                        <a href="https://www.privacypolicygenerator.info/live.php?token=G532JMBuwH6v1XMx7vqTQFYi6jfceCEM"
+                        class="text-dark" id="privacy-policy" target="_blank" rel="noopener"
+                        aria-label="Check out our privacy policy">Privacy Policy</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="https://stripe.com/en-gb" target="_blank" rel="noopener" class="text-dark"
+                          aria-label="Visit Stripe payments page (opens in a new tab)">To learn about Secure Payments.<i> Follow this link.</i>
+                        </a>
+                    </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="https://us13.list-manage.com/contact-form?u=2086d4189d14f9f855d62a49b&form_id=f94bc85a597a9ed999961fe073216366"
+                              target="_blank" rel="noopener" class="text-dark"maria-label="Visit our Contact us page (opens in a new tab)">
+                                <i>Contact Us</i>
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+                <p class="copyright"> &copy; Copyright @ 2024</p>
+        </div>
+      </footer>
   </body>
 </html>

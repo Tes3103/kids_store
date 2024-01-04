@@ -175,6 +175,42 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
+/* footer */
+
+.footer {
+    margin-top: 400px;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    background-color: rgba(0, 0, 0);
+    padding: 20px;
+}
+
+.socials i {
+    margin: 10px;
+    font-size: 160%;
+    color: #7FFFD4;
+}
+
+.socials :hover {
+    color: rgb(255, 115, 0);
+}
+
+.copyright {
+    color: #7FFFD4;
+    background-color: rgb(212, 212, 212);
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    border-style: solid;
+    border-width: 30px;
+}
+
+b {
+    color: rgb(187, 0, 0);
+}
+
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */

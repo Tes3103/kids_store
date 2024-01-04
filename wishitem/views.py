@@ -8,7 +8,7 @@ from .models import WishItem
 
 
 @login_required
-def view_wishlist(request):
+def view_wishitem(request):
     '''
     A view to return to the wishitem list
     '''
@@ -33,7 +33,7 @@ def add_to_wishitem(request, item_id):
     product = get_object_or_404(Product, pk=item_id)
     redirect_url = request.POST.get('redirect_url')
 
-    wish, _ = Wishlist.objects.get_or_create(user=request.user)
+    wish, _ = WishItem.objects.get_or_create(user=request.user)
 
     wish.products.add(product)
     messages.info(request, f'{product.name} was added to your wishitem list')
@@ -46,10 +46,10 @@ def remove_from_wishitem(request, item_id):
     '''
     Removes the item from the wishitem list
     '''
-    wish = Wishlist.objects.get(user=request.user)
+    wish = WishItem.objects.get(user=request.user)
     product = get_object_or_404(Product, pk=item_id)
 
-    # Remove wish from the wishlist
+    # Remove wish from the wishitem list
     wish.products.remove(product)
     messages.info(request, f'{product.name} was removed from your wishitem list')
 
