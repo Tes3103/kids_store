@@ -28,3 +28,8 @@ urlpatterns = [
     path('checkout/', include('checkout.urls')),
     path('profile/', include('profiles.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+handler400 = 'kids_store.views.handler400'
+handler403 = 'kids_store.views.handler403'
+handler404 = 'kids_store.views.handler404'
+handler500 = 'kids_store.views.handler500'
