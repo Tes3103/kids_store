@@ -1,14 +1,16 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.views.generic.edit import CreateView, UpdateView, DeleteView
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
+from django.urls import reverse_lazy
 
-from .models import Product, Category
+from .models import Product, Category, Review
 from .forms import ProductForm
+from .forms import ReviewForm
  
-
-# Create your views here.
 
 
 def all_products(request):
@@ -35,6 +37,7 @@ def all_products(request):
                     sortkey = f'-{sortkey}'
             products = products.order_by(sortkey)
 
+    if request.GET:        
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
@@ -66,9 +69,31 @@ def product_detail(request, product_id):
     """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
+    reviews = Review.objects.filter(product=product)
+    reviews = product.review_set.all()
+
+    if request.method == 'POST':
+
+        review_form = ReviewForm(data=request.POST or None)
+
+        if request.user.is_authenticated and review_form.is_valid():
+
+            review_form.instance.user = request.user
+            review = review_form.save(commit=False)
+            review.product = product
+            review.save()
+            messages.success(request, ('Thank you, your review was successful!'))
+
+            return redirect(reverse('product_detail', args=[product.id]))
+        else:
+            messages.error(
+                request,
+                'Please signin to create a review!')
+            return redirect(reverse('product_detail', args={product.id}))
 
     context = {
         'product': product,
+        'reviews': reviews,
     }
 
     return render(request, 'products/product_detail.html', context)
@@ -140,3 +165,55 @@ def delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))           
+
+
+class ReviewCreateView(LoginRequiredMixin, CreateView):
+    """
+    Product Reviews form
+    """
+    model = Review
+    context_object_name = 'Review'
+    form_class = ReviewForm
+
+    def form_valid(self, form):
+        
+        form.instance.product = Product.objects.get(pk=self.kwargs['pk'])
+        return super().form_valid(form)
+
+    def get_success_url(self):
+       
+        pk = self.kwargs['pk']
+        return reverse_lazy('product_detail', kwargs={'product_id': pk})
+
+
+class ReviewUpdateView(LoginRequiredMixin, UpdateView):
+    """
+    product Reviews editing section
+    """
+    model = Review
+    context_object_name = 'Review'
+    form_class = ReviewForm
+
+    def get_success_url(self):
+        
+        pk = self.kwargs['id']
+        return reverse_lazy('product_detail', kwargs={'product_id': pk})
+
+
+class ReviewDeleteView(LoginRequiredMixin, DeleteView):
+    """
+    product Reviews deleting section
+    """
+    model = Review
+    context_object_name = 'Review'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['product'] = self.object.product.pk
+        return context
+
+    def get_success_url(self):
+       
+        pk = self.kwargs['id']
+        return reverse_lazy(
+            'product_detail', kwargs={'product_id': self.object.product.pk})

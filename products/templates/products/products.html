@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block extra_title %}/Products{% endblock %}
+
 {% block page_header %}
 <div class="container header-container">
     <div class="row">
@@ -74,7 +76,14 @@
                             <div class="card-footer bg-white pt-0 border-0 text-left">
                                 <div class="row">
                                     <div class="col">
-                                        <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
+                                        <p class="lead mb-0 text-left font-weight-bold">
+                                            {% if product.discount_price %}
+                                                <i class="discount-price text-color">${{ product.discount_price }}</i>
+                                                <strong>$<del>{{ product.price }}</del></strong>
+                                            {% else %}
+                                            $<strong>{{ product.price }}</strong>
+                                            {% endif %}
+                                        </p>
                                         {% if product.category %}
                                         <p class="small mt-1 mb-0">
                                             <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
@@ -84,10 +93,20 @@
                                         {% endif %}
                                         {% if product.rating %}
                                         <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} /
-                                            5</small>
+                                            6</small>
                                         {% else %}
                                         <small class="text-muted">No Rating</small>
                                         {% endif %}
+                                        <a class="reviews-text-light-link text-decoration-none bg-color pl-1 pr-2 pb-1 mb-5 rounded"
+                                        href="{% url 'product_detail' product.pk %}"><i>Add to wishitem</i>
+                                         | <a class="reviews-text-light-link text-decoration-none bg-color pl-1 pr-2 pb-1 mb-5 rounded"
+                                        href="{% url 'product_detail' product.pk %}"><i>Add to Bag</i>
+                                        </a>
+                                        <hr>
+                                        <a class="reviews-text-light-link text-decoration-none bg-color pl-1 pr-2 pb-1 mt-5 rounded"
+                                        href="{% url 'product_detail' product.pk %}"><i>Reviews</i>
+                                        </a>
+                                    </a>
                                         {% if request.user.is_superuser %}
                                             <small class="ml-3">
                                                 <a href="{% url 'edit_product' product.id %}">Edit</a> | 
