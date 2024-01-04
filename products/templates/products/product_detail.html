@@ -62,19 +62,19 @@
                     {% endif %}
                     <p class="mt-3">{{ product.description }}</p>
                     {% if user.is_authenticated %}
-                    <form class="form" action="{% url 'add_to_wishlist' product.id %}" method="POST">
+                    <form class="form" action="{% url 'add_to_wishitem' product.id %}" method="POST">
                     {% csrf_token %}
                     <button type="submit" class="btn text-color text-light-link rounded border-0 mt-3 mb-3"
-                        data-toggle="tooltip" data-placement="top" title="Add to wishlist">
+                        data-toggle="tooltip" data-placement="top" title="Add to wishitem">
                         <i class="fas fa-heart fa-lg"></i>
-                        <strong>Add To Wishlist!</strong>
+                        <strong>Add To Wishitem!</strong>
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
                     </button>
                     </form>
                     {% else %}
                     <a href="{% url 'account_login' %}" class="btn text-color text-light-link rounded border-0 mt-3 mb-3"
-                    data-toggle="tooltip" data-placement="top" title="Add to wishlist">
-                    <i class="fas fa-heart fa-lg"><strong> Add To Wishlist!</strong></i>
+                    data-toggle="tooltip" data-placement="top" title="Add to wishitem">
+                    <i class="fas fa-heart fa-lg"><strong> Add To Wishitem!</strong></i>
                     </a></p>
                     {% endif %}
                     <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
