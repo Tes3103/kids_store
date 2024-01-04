@@ -1,0 +1,1 @@
+web: gunicorn kids_store.wsgi:application

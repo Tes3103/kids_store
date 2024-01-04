@@ -32,7 +32,7 @@ SECRET_KEY = 'django-insecure-3x%-jsd$ak@h=4z1v6+#hk5z!let+y4f!p1wr-zcbv$gmz=qa=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-tes3103-kids-store-g7non8txkv.us2.codeanyapp.com', '8000-tes3103-kidsstore-tnwn3zz5pwe.ws-eu107.gitpod.io']
+ALLOWED_HOSTS = ['8000-tes3103-kids-store-g7non8txkv.us2.codeanyapp.com', '8000-tes3103-kidsstore-tnwn3zz5pwe.ws-eu107.gitpod.io', 'ecommerce-2024.herokuapp.com']
 
 
 # Application definition
@@ -126,15 +126,18 @@ WSGI_APPLICATION = 'kids_store.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-   }
-}
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
 
-
-
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
