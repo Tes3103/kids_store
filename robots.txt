@@ -1,0 +1,4 @@
+User-agent:*
+Disallow:/accounts/
+Disallow:/profiles/
+Sitemap:https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/sitemap.xml

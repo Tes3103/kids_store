@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/bag/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/?sort=rating&amp;direction=desc</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/?sort=sku&amp;direction=asc</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/?sort=category&amp;direction=asc</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/?sort=image&amp;direction=asc</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/?category=winter_collections</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/?category=jacket</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/?category=scarf</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/?category=winter_collections,summer_collections,birthday_collections,shooes_collections</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/?category=summer_collections</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/?category=short</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/?category=dress</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/?category=birthday_collections</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/?category=boys</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/?category=girls</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/10/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/7/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/24/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/17/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/26/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/9/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/28/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/5/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/27/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/20/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/22/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/12/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/8/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/18/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/6/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/4/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/13/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/19/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/11/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/2/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/1/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/14/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/15/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/21/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/25/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/33/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/34/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/23/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/36/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/40/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/31/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/16/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/30/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/35/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/37/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/29/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/38/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/39/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/32/</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/products/?category=shooes_collections</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/10</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/7</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/24</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/17</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/26</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/9</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/28</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/5</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/27</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/20</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/22</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/12</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/8</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/18</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/6</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/4</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/13</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/19</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/11</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/2</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/1</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/14</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/15</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/21</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/25</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/33</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/34</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/23</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/36</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/40</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/31</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/16</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/30</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/35</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/37</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/29</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/38</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/39</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=/products/review-create/32</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F10</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F7</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F24</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F17</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F26</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F9</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F28</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F5</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F27</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F20</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F22</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F12</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F8</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F18</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F6</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F4</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F13</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F19</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F11</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F2</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F1</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F14</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F15</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F21</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F25</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F33</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F34</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F23</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F36</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F40</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F31</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F16</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F30</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F35</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F37</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F29</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F38</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F39</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F32</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F10</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F7</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F24</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F17</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F26</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F9</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F28</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F5</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F27</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F20</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F22</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F12</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F8</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F18</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F6</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F4</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F13</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F19</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F11</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F2</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F1</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F14</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F15</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F21</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F25</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F33</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F34</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F23</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F36</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F40</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F31</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F16</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F30</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F35</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F37</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F29</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F38</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F39</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ecommerce-2024-b3dc24d9bd28.herokuapp.com/accounts/login/?next=%2Fproducts%2Freview-create%2F32</loc>
+  <lastmod>2024-01-05T04:32:01+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+
+
+</urlset>
