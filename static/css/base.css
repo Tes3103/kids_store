@@ -198,7 +198,7 @@ input[name='q']::placeholder {
 
 .copyright {
     color: #7FFFD4;
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(26, 23, 23);
     text-align: center;
     padding: 10px;
     font-size: 18px;
@@ -207,7 +207,7 @@ input[name='q']::placeholder {
 }
 
 b {
-    color: rgb(187, 0, 0);
+    color: #7FFFD4;
 }
 
 
