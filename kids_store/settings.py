@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-tes3103-kids-store-g7non8txkv.us2.codeanyapp.com', '8000-tes3103-kidsstore-tnwn3zz5pwe.ws-eu107.gitpod.io', 'ecommerce-2024-b3dc24d9bd28.herokuapp.com']
+ALLOWED_HOSTS = ['8000-tes3103-kids-store-g7non8txkv.us2.codeanyapp.com', '8000-tes3103-kidsstore-cji5o388klo.ws-eu114.gitpod.io', 'ecommerce-2024-b3dc24d9bd28.herokuapp.com']
 
 
 # Application definition
