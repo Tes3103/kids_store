@@ -30,7 +30,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['8000-tes3103-kids-store-g7non8txkv.us2.codeanyapp.com', '8000-tes3103-kidsstore-cji5o388klo.ws-eu114.gitpod.io', 'ecommerce-2024-b3dc24d9bd28.herokuapp.com']
 
@@ -199,10 +199,10 @@ if 'USE_AWS' in os.environ:
 
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'ecommercenew-2024'
-    AWS_S3_REGION_NAME = 'Europe (Stockholm) eu-north-1'
+    AWS_S3_REGION_NAME = 'eu-north-1'
     AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
     AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
-    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.Europe (Stockholm) eu-north-1.amazonaws.com'
+    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.eu-north-1.amazonaws.com'
 
     # Static and media files
     STATICFILES_STORAGE = 'custom_storages.StaticStorage'
