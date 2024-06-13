@@ -245,9 +245,26 @@ Back to [Tpo](#table-of-content)
 
 ### **Future Features**
 
-*
-*
-*
+* Currentely the wishitem page not function fully in the future I would like to enhance the functionality of the page
+* I would like to have designers to meet with our customers who needs special order for unique design and material
+* Enable a live chat session with the site admin and customers
+
+Back to [Top](#table-of-content)
+
+## Kids-Store Business Model
+
+### Web Marketing Strategies
+* Currently the prefered way of our marketing strategy is using a social media platform but the the business grows we are planning to mix paid advertising with a free social media
+
+#### Facebook Business Page
+
+![Facebook Page](static/images/readme/facebook-page.png)
+
+![Facebook Page](static/images/readme/facebook-link.png)
+
+![Facebook Page](static/images/readme/facebook-link2.png) 
+
+
 
 
 
