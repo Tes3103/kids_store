@@ -29,7 +29,17 @@ Back to [Top](#kids-store)
 
 ## **Introduction**
 Our Departemt Store focuses on Kids clothing specializing in Seasonal and Occational dressing. Our designers collections specially for Birthday for all gender are the one which makes Our Departemet Store Standout form Our Competiters.
-We also supply for our Cutomers Limited Editions according to their test for their little Engels at any time of the year. 
+We also supply for our Cutomers Limited Editions according to their test for their little Engels at any time of the year.
+
+By Utilising the Django Full Stack Web Framework, Bootstrap, Stripe API for secure payments, and underwritten by the principles of User Experience design and Search Engine Optimisation, Kids-Store offers its customers an effortless and rewarding user experience.
+
+If you wish to make a test purchase, you can use the following details: Please note that this is an educational purpose and real payment cards will throw an error.  
+
+  * Card Number: 4242424242424242
+  * Exp Date: Any (future) date using the format MM/YY
+  * CVN = any 3 digit number
+  * Postcode = any 5 numerals
+ 
 ## **UI/UX**
   ### **User Demographic**
   This Site Targets Users Who are:
@@ -255,9 +265,9 @@ Back to [Tpo](#table-of-content)
 
 Back to [Top](#table-of-content)
 
-## Kids-Store Business Model
+## **E-Commerce Business Model**
 
-### Web Marketing Strategies
+### **Web Marketing Strategies**
 * Though there are a lot of marketing techniques for businesses, Kids-Store decided use the Social media, facebook to drive out content and engage with customers. Visit our facebook page [here](#https://www.facebook.com/people/Kids-Store/61555399526567/)
 
 #### Facebook Business Page
@@ -270,22 +280,22 @@ Back to [Top](#table-of-content)
 
 Back to [Top](#table-of-content)
 
-## Email Marketing
+#### Email Marketing
 * The free version of mailchimp was chosen with the current status of the business. Each user that signs up is added to the future marketing update.
 
-## SEO
+#### SEO
 * The meta keywords and description in base.html have been amended to the researched keywords.
 * I also added a sitemap.xml and robots.txt file to the website's root directory for search engines to crawl the site.
 * A sitemap is a method of classifying a website, indicating the URLs and the information contained within each section.
 * The URLs on your website that a search engine crawler is permitted to visit are specified in a robots.txt file.
 
-## Testing
+## **Testing**
 
-### Manual Testing
+### **Manual Testing**
 
 * Each section of the website has been tested.Testing different devices and screen resolutions has been conducted using Google DevTools.
 
-### Navigation Bar
+#### Navigation Bar
 **Test**|**Action**|**Expected**|**Result**
 -----|-----|-----|:-----:
 Logo|Clicked logo|When the logo is clicked it will return the user to the home page|pass
@@ -297,21 +307,21 @@ My Account nav link|Clicked Login on the nav bar|When clicked it will direct the
 Shopping Bag nav link|Clicked Shopping Bag on the nav bar|When clicked it will direct the Authorized user to the list of collected items with grand total if any|Pass
 Nav menu responsive|Change the Device Size|When browser is resized the nav bar will remain responsive across all device sizes|Pass
 
-### Register
+#### Register
 **Test**|**Action**|**Expected**|**Result**
 -----|-----|-----|:-----:
 Register form|Filled out all required fields of register form and clicked sign up|When sign up button is clicked it will create an account for the user after email conformation and sign them into the site|Pass
 Register - success message|Created an account on the register page and observed the success message|When user creates an account they are signed-in a success message is displayed|Pass
 Register form validation|Clicked sign up and left the required field blank|If sign up is clicked without a required input field being filled a pop up will detail this to the user|Pass
 
-### Sign In
+#### Sign In
 **Test**|**Action**|**Expected**|**Result**
 -----|-----|-----|:-----:
 Sign in form|Fill out all required fields of sign in form and clicked sign in|Once the sign in form is filled out correctly and sign in button is clicked it will sign them into the site|Pass
 Sign in - success message|Signed in and observed the success message|When user signs in they are redirected to café-board home page and a success message is displayed|Pass
 Sign in page responsive|Resized browser and checked the sign in page at different screen resolutions|When the screen size is changed the sign in page will adapt to the different screen size|Pass
 
-### Product
+#### Product
 **Test**|**Action**|**Expected**|**Result**
 -----|-----|-----|:-----:
 All product Links|Clicked they display a differnt filter mechanisms |Once selected will display accordingely|Pass
@@ -319,20 +329,20 @@ All product Links|Clicked to a particular product |display the detail descriptio
 Select Size and Quantity Link|Click the dropdown menu or add button|Select the Size and increase or decrease the quantity|Pass
 Add to bag or wishlist|clicked to a particular choice|Add the selected product to the bag or wishitem|pass
 
-### Profile
+#### Profile
 **Test**|**Action**|**Expected**|**Result**
 -----|-----|-----|:-----:
 Edit profile information|Edited username and clicked update user|The user can edit their username or email by filling out the form on the edit user page and clicking update user|Pass
 Delete profile|Clicked delete account and clicked delete account again on the modal, tried to sign in using the deleted account details|When the delete account button is clicked a modal will pop up to the user to confirm this action, once delete account is clicked the user will be redirected to the logged out home page with a warning message|Pass
 Delete history|Clicked delete on a history|Once the user clicks delete next to a purchase history the history will be removed and a warning message is displayed to the user|Pass
 
-### Logout
+#### Logout
 **Test**|**Action**|**Expected**|**Result**
 -----|-----|-----|:-----:
 Logout|Clicked the Logout button|Users can logout of the site by clicking the sign out button, they will be redirected to the logged out home page|Pass
 Logout - warning message|Logged out of the site and observed the message|Once logged out a message will detail this to the user|Pass
 
-### Footer
+#### Footer
 **Test**|**Action**|**Expected**|**Result**
 -----|-----|-----|:-----:
 Facebook link clickable|Clicked the Facebook icon|When clicked the Facebook icon will open a new window to Facebook|Pass
@@ -341,10 +351,88 @@ Instagram link clickable|Clicked the Instagram icon|When clicked the Instagram i
 Policy link clickable|Clicked the Policy  icon|When clicked the Policy link will open a new window to In|Pass
 Footer responsive|Resized the browser and checked the footer at different resolutions|Footer will fit the samll screen size|Pass
 
+### **Validator Testing**
 
+### CI Python Linter
+* All app fiels were tested and no major error noticed.
+#### Bag
 
+![Bag-View.py](static/images/readme/bag-view-py.png)
 
+![Bag-Context.py](static/images/readme/bag-context-py.png)
 
+#### Checkout
+
+![Checkout-Forms.py](static/images/readme/checkout-forms-py.png)
+
+![Checkout-views.py](static/images/readme/checkout-views-py.png)
+
+#### Products
+
+![Products-forms.py](static/images/readme/products-forms-py.png)
+
+![Products-views.py](static/images/readme/products-views-py.png)
+
+#### Profiles
+
+![Profiles-Model.py](static/images/readme/profile-model-py.png)
+
+![Profiles-View.py](static/images/readme/profile-views-py.png)
+
+Back to[Top](#table-of-content)
+
+#### W3C CSS Validations
+
+![CSS](static/images/readme/css.png)
+
+#### Lighthouse Tests
+
+![Lighthouse](static/images/readme/lighthouse1.png)
+
+![Lighthouse](static/images/readme/lighthouse2.png)
+
+#### W3C HTML Validations
+
+![Home Page](static/images/readme/html.png)
+
+Back to [Top](#table-of-content)
+
+## **Deployment**
+### General Steps:
+* Create a work space Repository
+* Install the Necessary Packages 
+* Start the Django Project
+* Start the Django Apps and put them in the project settings.py under installed apps
+* Setup the database example using ElephantSQL
+* create the env.py at the project level directory and put all private keys 
+* Setup the media/static file storage for the project example AWS and connect to the Django workspace
+* Push the changes to github and makesure the debag set to False
+* Create an app in Heroku and under the created app in the setting revel the configvar and set the Database and all key value and save
+* Connect to the github repository and Deploy
+
+## **How to Fork this Repository**
+#### The steps are: 
+1. Log into GitHub and locate the desired repository.
+2. On the top the repository just under the settings tab there will be a grey Fork button.
+3. Once you have clicked the fork button you should now have a copy of your original repository.
+
+## **How to Clone this Repository**
+#### The steps are:
+1. Navigate to the repository : Kids_store
+2. Click on the arrow on the green code button at the top of the list of files
+3. Select the 'Local' tab select the 'HTTPS' tab and click the icon to copy the prepopulated link
+4. Navigate to your code editor of choice and within the terminal change the directory to the location you want to clone the repository to.
+5. Type 'git clone' and paste the HTTPS link you copied from GitHub
+6. Press enter, the Forked repository will now clone to your preferred development method on your local machine.
+
+## **Credits**
+
+* The Credit maily goes to the CI as An Institute for providing Boutique Ado Walkthrough Project which I use for my project
+
+## **Acknowledgments**
+* Thank You all CI Staff members for the continous Support and My Mentor who Guide me All way through
+
+Back To [Top](#table-of-content)
 
 
 
