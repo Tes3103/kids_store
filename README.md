@@ -182,7 +182,7 @@ Back to [Top](#table-of-content)
 ![Sign Out](static/images/readme/signout-conformation.png)
 
 Back to[Top](#table-of-content)
----
+
 ### Shopping Bag
 
 * Once the customer selects all his prefered collections it will be collected to the shopping bag with the calculated grand total price and the delivery cost status.The customer can go directely to the securecheckout section by tapping the button.Here the customer can also add, update and delete accoording to the wish.
@@ -217,7 +217,37 @@ Back to [Top](#table-of-content)
 
 ![Admin](static/images/readme/super-user-only.png)
 
+* when the order is completed an Order conformation email will be sent
+
+![Order-Conformation](static/images/readme/order-conformation.png)
+
+Back to [Tpo](#table-of-content)
+
+## Checkout Page
+
+* When the customer tab the Secure checkout button will be directed to the form with required filled. After sequring all the fileds the stripe payment procceds and at the end a success complete message will render with all the detail descriptions and this will be added to the customer profile section and a conformation email will be sent.
+
+![To Secure-checkot](static/images/readme/secure-checkout.png)
+
+![Checkout Page](static/images/readme/check-out-form1.png)
+
+![Stripe payment](static/images/readme/stripe-payment.png)
+
+![Checkout Success](static/images/readme/successful-purchase.png)
+
+* If the customer miss the required filled or input wrong the waning message will pop up
+
+![Wrong Input](static/images/readme/checkout-valid-info.png)
+
+* If the Customer input real credit card warining message will pop up since this is Educational Purpose project/ test 
+
+![Real Card error](static/images/readme/test-card-error.png)
+
 ### **Future Features**
+
+*
+*
+*
 
 
 
