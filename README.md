@@ -274,6 +274,7 @@ Back to [Tpo](#table-of-content)
 * Currentely the wishitem page not function fully in the future I would like to enhance the functionality of the page
 * I would like to have designers to meet with our customers who needs special order for unique design and material
 * Enable a live chat session with the site admin and customers
+* I would like to do more validator test and Autmated test 
 
 Back to [Top](#table-of-content)
 
@@ -408,6 +409,14 @@ Back to[Top](#table-of-content)
 ![Home Page](static/images/readme/html.png)
 
 Back to [Top](#table-of-content)
+
+## Bug
+
+* During the development phase My nave bar was not redering properly in smaller screen and fixed by correcting a typo in base.html
+
+* The static Files was faild to load on heroku deployment and fixed by correcting the AWS region selection
+
+* During User Account registration it throws 500 error during email conformation and fixed
 
 ## **Deployment**
 ### General Steps:
