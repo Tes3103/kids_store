@@ -105,11 +105,11 @@ Back to [Top](#table-of-content)
 * *Lucid chart* - Used to create the flowchart.
 * *Bootstrap* - was used for the fast development of the layout and styling
 * *Gitpod* - IDE used for the development of the  application.
-* *jQuery* - jQuery was used to develop the date and time pickers.
 * *GitHub* - The code for this application is stored on GitHub.
 * *Git* - Used for version control.
 * *Heroku* - Used for development.
-* *JavaScript* -
+* *Stripe* - was used for checkout functionality and facilitate online payments
+* *AWS* - for object storage through a web service interface
 
 Back to [Top](#table-of-content)
 
@@ -243,6 +243,10 @@ Back to [Tpo](#table-of-content)
 
 ![Real Card error](static/images/readme/test-card-error.png)
 
+### 404 Page
+
+![404-Page](static/images/readme/404page-error.png)
+
 ### **Future Features**
 
 * Currentely the wishitem page not function fully in the future I would like to enhance the functionality of the page
@@ -254,7 +258,7 @@ Back to [Top](#table-of-content)
 ## Kids-Store Business Model
 
 ### Web Marketing Strategies
-* Currently the prefered way of our marketing strategy is using a social media platform but the the business grows we are planning to mix paid advertising with a free social media
+* Though there are a lot of marketing techniques for businesses, Kids-Store decided use the Social media, facebook to drive out content and engage with customers. Visit our facebook page [here](#https://www.facebook.com/people/Kids-Store/61555399526567/)
 
 #### Facebook Business Page
 
@@ -265,6 +269,9 @@ Back to [Top](#table-of-content)
 ![Facebook Page](static/images/readme/facebook-link2.png) 
 
 Back to [Top](#table-of-content)
+
+## Email Marketing
+* The free version of mailchimp was chosen with the current status of the business. Each user that signs up is added to the future marketing update.
 
 ## SEO
 * The meta keywords and description in base.html have been amended to the researched keywords.
@@ -309,7 +316,31 @@ Sign in page responsive|Resized browser and checked the sign in page at differen
 -----|-----|-----|:-----:
 All product Links|Clicked they display a differnt filter mechanisms |Once selected will display accordingely|Pass
 All product Links|Clicked to a particular product |display the detail description accordingly|Pass
+Select Size and Quantity Link|Click the dropdown menu or add button|Select the Size and increase or decrease the quantity|Pass
 Add to bag or wishlist|clicked to a particular choice|Add the selected product to the bag or wishitem|pass
+
+### Profile
+**Test**|**Action**|**Expected**|**Result**
+-----|-----|-----|:-----:
+Edit profile information|Edited username and clicked update user|The user can edit their username or email by filling out the form on the edit user page and clicking update user|Pass
+Delete profile|Clicked delete account and clicked delete account again on the modal, tried to sign in using the deleted account details|When the delete account button is clicked a modal will pop up to the user to confirm this action, once delete account is clicked the user will be redirected to the logged out home page with a warning message|Pass
+Delete history|Clicked delete on a history|Once the user clicks delete next to a purchase history the history will be removed and a warning message is displayed to the user|Pass
+
+### Logout
+**Test**|**Action**|**Expected**|**Result**
+-----|-----|-----|:-----:
+Logout|Clicked the Logout button|Users can logout of the site by clicking the sign out button, they will be redirected to the logged out home page|Pass
+Logout - warning message|Logged out of the site and observed the message|Once logged out a message will detail this to the user|Pass
+
+### Footer
+**Test**|**Action**|**Expected**|**Result**
+-----|-----|-----|:-----:
+Facebook link clickable|Clicked the Facebook icon|When clicked the Facebook icon will open a new window to Facebook|Pass
+Twitter link clickable|Clicked the Twitter icon|When clicked the Twitter icon will open a new window to Twitter|Pass
+Instagram link clickable|Clicked the Instagram icon|When clicked the Instagram icon will open a new window to Instagram|Pass
+Policy link clickable|Clicked the Policy  icon|When clicked the Policy link will open a new window to In|Pass
+Footer responsive|Resized the browser and checked the footer at different resolutions|Footer will fit the samll screen size|Pass
+
 
 
 
