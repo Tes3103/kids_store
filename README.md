@@ -121,16 +121,101 @@ Back to [Top](#table-of-content)
 ![Home Page](static/images/readme/home-page.png)
 
 * A home page also displaying a quick link to the shopping area of the site.
-* A home page with a search options, Account shopping back and clicable dropdoan nav link displaying different features of the products
+* A home page with a search options, Account registration and login, shopping bag and clicable dropdown nav link displaying different features of the products
 
 ![Home Page](static/images/readme/home-page-dropdown.png)
 
 * A home page renders well for all screen size media.
+
 ![Home Page](static/images/readme/for-all-screen-size.png)
 
+### Search Bar
 
+* Search button: This will help our Customers esily search for the particular product
 
+![Search Bar](static/images/readme/Search-bar.png)
 
+### My Account
+
+* My Account: This Section will give the Customer to Register and for the registerd customer can login using this. The Site Admin can also Login Using his/her credentials
+
+![My Account](static/images/readme/account-normal.png)
+
+* Account Registation Form: This form will display the detaild input with a requird fild. When it is filled with the correct information a conformation email will be sent to the customer and onece confirmed a successful registration success message will display.
+
+#### Sign-Up
+
+![Sign Up](static/images/readme/account-signup.png)
+
+![Email Conformation](static/images/readme/new-user-email-conformation.png)
+
+#### Sign-In
+
+* Sign In: Once the customers successfully registed they can use their credentials to sign in and access their profile.They also get the success message using either their User name or email. If the customer forgets the password it can be easily reconfigured using the forgot password link
+
+![Sign In](static/images/readme/account-success.png)
+
+![Authonticated Customer](static/images/readme/account-authoticated.png)
+
+![Profile](static/images/readme/profile-info.png)
+
+##### Admin/Super user 
+
+* The Admin can access teh Administrative page from both Home page and /admin.When Accessd from the Home page
+
+![Admin home Page](static/images/readme/account-superuser.png)
+
+![Admin Profle](static/images/readme/account-product-management.png)
+
+![Product CRUD](static/images/readme/product-edit-delete.png)
+
+* When Accessed from the <b>/admin</b>
+
+![Admin Main](static/images/readme/admin-page1.png)
+
+![Admin Main2](static/images/readme/admin-page2.png)
+
+#### Log-Out
+
+* LogOut: The Authonticated Customer can logout using the button in the my account section and then a logout conformation message will pop up to confirm the logout process.
+
+![Sign Out](static/images/readme/signout-conformation.png)
+
+Back to[Top](#table-of-content)
+---
+### Shopping Bag
+
+* Once the customer selects all his prefered collections it will be collected to the shopping bag with the calculated grand total price and the delivery cost status.The customer can go directely to the securecheckout section by tapping the button.Here the customer can also add, update and delete accoording to the wish.
+
+![Shopping Bag](static/images/readme/secure-checkout.png)
+
+![Free Delivery](static/images/readme/free-delivery-sugession.png)
+
+Back to[Top](#table-of-content)
+
+### Product Page
+
+* Product Filter: When the customer tab the different sections of the product a drop down menu will appear to choose from according to the wish
+
+![Product Filter](static/images/readme/home-page-dropdown.png)
+
+* Product Detail: When the product is selected it will desplay the detail descrption of the product with additional functionality
+
+![Product Detail](static/images/readme/detailed-product-description.png)
+
+Back to [Top](#table-of-content)
+
+### Profile Page
+
+* Authenticated Customers: Onece the customer sign in with the right credentials the profile page is accessible and with the detaild information and past activities. The customer can add, edit, and delete according to their wish and can also save the default delivery section by cleaking the radio button.
+
+![My Profile Page](static/images/readme/profile-info.png)
+
+![Default-delivery](static/images/readme/detail-profile-with-default-delivery.png)
+
+* The Authenticated Customer can not access the admin site if tried a messaege with not authorized to access a particular section of the website comes with a guide to the different section of the page
+
+![Admin](static/images/readme/super-user-only.png)
 
 ### **Future Features**
 
