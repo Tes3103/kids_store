@@ -10,6 +10,7 @@ Kids-Store is a fictitious full function B2C e-commerce kids’ department, powe
 * [UI/UX](#ui/ux)
   * [User Demographic](#user-demographic)
   * [User Stories](#user-stories)
+  * [Agile Methodologies](#agile-methodologies)
   * [Wireframes](#Wireframes)
   * [Flowchart](#Flowchart)
 * [Technologies Used](#technologies-used)  
@@ -90,6 +91,17 @@ If you wish to make a test purchase, you can use the following details: Please n
 * As a Site Admin I can edit the product so that I can easily update the product with price and quality
 
 * As a Site Admin I can delete a product so that I can easily remove products that are not for sale
+
+### **Agile Methodologies**
+
+* I have utilized GitHub's built-in features such as issue tracking and project management to effectively manage tasks and monitor progress.
+* While the application is still a work in progress, it is continuously evolving with a focus on delivering a fully functional and feature-rich online store for users to explore.
+
+![Userstory](static/images/readme/Agile1.png)
+
+![User Story](static/images/readme/agile2.png)
+
+![MoSCOW](static/images/readme/Agile.png)
 
 ### **Wireframes**
 
