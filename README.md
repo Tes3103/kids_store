@@ -264,6 +264,54 @@ Back to [Top](#table-of-content)
 
 ![Facebook Page](static/images/readme/facebook-link2.png) 
 
+Back to [Top](#table-of-content)
+
+## SEO
+* The meta keywords and description in base.html have been amended to the researched keywords.
+* I also added a sitemap.xml and robots.txt file to the website's root directory for search engines to crawl the site.
+* A sitemap is a method of classifying a website, indicating the URLs and the information contained within each section.
+* The URLs on your website that a search engine crawler is permitted to visit are specified in a robots.txt file.
+
+## Testing
+
+### Manual Testing
+
+* Each section of the website has been tested.Testing different devices and screen resolutions has been conducted using Google DevTools.
+
+### Navigation Bar
+**Test**|**Action**|**Expected**|**Result**
+-----|-----|-----|:-----:
+Logo|Clicked logo|When the logo is clicked it will return the user to the home page|pass
+Home nav link|Clicked Home on the nav bar|When clicked it will direct the user to the home page|pass
+Search bar link|Clicked the search icon after the keyword entered|When clicked it will direct the user to the output-page|Pass
+Search bar link|Clicked the search icon with out a  keyword entered|When clicked it will display an error message|Pass
+My Account nav link|Clicked Register on the nav bar|When clicked it will direct the user to the sign up page|Pass
+My Account nav link|Clicked Login on the nav bar|When clicked it will direct the user to the sign in page|Pass
+Shopping Bag nav link|Clicked Shopping Bag on the nav bar|When clicked it will direct the Authorized user to the list of collected items with grand total if any|Pass
+Nav menu responsive|Change the Device Size|When browser is resized the nav bar will remain responsive across all device sizes|Pass
+
+### Register
+**Test**|**Action**|**Expected**|**Result**
+-----|-----|-----|:-----:
+Register form|Filled out all required fields of register form and clicked sign up|When sign up button is clicked it will create an account for the user after email conformation and sign them into the site|Pass
+Register - success message|Created an account on the register page and observed the success message|When user creates an account they are signed-in a success message is displayed|Pass
+Register form validation|Clicked sign up and left the required field blank|If sign up is clicked without a required input field being filled a pop up will detail this to the user|Pass
+
+### Sign In
+**Test**|**Action**|**Expected**|**Result**
+-----|-----|-----|:-----:
+Sign in form|Fill out all required fields of sign in form and clicked sign in|Once the sign in form is filled out correctly and sign in button is clicked it will sign them into the site|Pass
+Sign in - success message|Signed in and observed the success message|When user signs in they are redirected to café-board home page and a success message is displayed|Pass
+Sign in page responsive|Resized browser and checked the sign in page at different screen resolutions|When the screen size is changed the sign in page will adapt to the different screen size|Pass
+
+### Product
+**Test**|**Action**|**Expected**|**Result**
+-----|-----|-----|:-----:
+All product Links|Clicked they display a differnt filter mechanisms |Once selected will display accordingely|Pass
+All product Links|Clicked to a particular product |display the detail description accordingly|Pass
+Add to bag or wishlist|clicked to a particular choice|Add the selected product to the bag or wishitem|pass
+
+
 
 
 
